@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
 *{
     margin:0px ;
     padding:0px
 }
+/* header-section-start */
 .header{
     max-width: 1440px;
-    height: 740px;
+    height: 700px;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     margin: 0px auto;
 }
@@ -75,6 +77,10 @@
     
     
 }
+.shape{
+    font-family: "Grey Qo", cursive;
+    font-size: 5rem;
+}
 .text1 h2{
     color: rgb(255, 255, 255);
     font-family: Inter;
@@ -89,6 +95,7 @@
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
+    margin-top: 30px;
 }
 .button{
     padding:16px 40px 16px 40px;
@@ -195,4 +202,137 @@ margin-left: 15px;
     font-weight: 400;
     margin-top:8px;
     margin-left: 25px;
+}
+/* header-section-end */
+
+
+/* body start */
+
+.main{
+    max-width: 1440px;
+    height: 4650px;
+    background:  rgb(0, 0, 0);
+    margin: 0px auto ;
+}
+.habitcard-wrapper{
+    max-width: 72.5%;
+    margin:0px auto;
+    height: 452px;
+    padding:40px
+}
+.habitcard-1{
+    max-width:64.74%;
+    
+    margin:0px auto
+}
+.habitcard-1 h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.habitcard-1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.87rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    text-align:center
+}
+.income{
+
+    text-align: center;
+}
+
+.imgcard-wrapper{
+    max-width:100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top:60px;
+    gap:40px
+    
+}
+.writing-section{
+    max-width:185px;
+    height: 70px;
+    margin-top:30px
+    
+}
+
+.writing-section h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    margin-left:5px;
+    text-align: center;
+    
+}
+.writing-section p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+    
+    
+}
+
+
+.img2{
+    max-width:272px;
+    height: 180px;
+    margin-left: 4px;
+}
+.img2 img{
+    border-radius: 50%;
+}
+.card{
+    text-align:left;
+}
+.runcard-wrapper{
+    max-width:66.62%;
+    margin:0px auto;
+    margin-top: 100px;
+    height: 370px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: space-around;
+    gap:100px
+}
+.text-part{
+    max-width:443px;
+    height:290px;
+    padding:50px
+}
+.text-part h2{
+    max-width: 443px;
+    height: 116px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;;
+}
+.text-part p{
+max-width:443px;
+height: 72px ;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.87rem;
+text-align: left;
+font-weight: 400;
+margin-top:15px
+}
+.img3 img{
+    max-width:366px;
+    border-radius: 18px;
+    height: 312px;
+    object-fit: none;
+    object-position: 68% 30%;
 }
