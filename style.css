@@ -460,13 +460,19 @@ margin-top:10px
     font-weight: 400;
     margin-top:15px
     }
+    .maincalculator-wrapper{
+        max-width: 1440px;
+            height: 500px;
+            background: rgb(34, 34, 34);
+    }
 .calculator{
-    max-width: 100%;
+    max-width: 1060px;
     
     height: 500px;
-    background: rgb(34, 34, 34);
+    
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    margin:0px auto
 }
 .tablechart{
     max-width: 610px;
@@ -704,7 +710,7 @@ footer{
     height: 470px;
 }
 .footer-main{
-    width:72%;
+    width:1060px;
     height: 250px;
    
     margin:0px auto;
@@ -883,7 +889,7 @@ max-width:300px
     .cards-wrapper{
         grid-template-columns: repeat(1,1fr);
         margin: 0px auto;
-        max-width: 59%;
+        max-width: 227px;
     }
     .eatinglist-wrapper{
         height: 1900px;
@@ -991,6 +997,12 @@ max-width:300px
     .table table th{
         border:2px solid rgba(255, 255, 255, 0.5)
     }
+    .maincalculator-wrapper{
+        height:800px
+    }
+    .calculator{
+        height: 800px;
+    }
         
 }
 
@@ -1044,7 +1056,7 @@ max-width:300px
         
     }
     .cards-wrapper{
-        max-width: 76%;
+        max-width: 235pxs;
     }
     .main-child{
         width:232px;
@@ -1074,6 +1086,21 @@ max-width:300px
     }
     footer{
         max-width: 100%;
+    }
+    .runcard-wrapper{
+        max-width: 1060px;
+    }
+    .cards-wrapper{
+        max-width: 1060px;
+    }
+    .habitcard-wrapper{
+        max-width: 1060px;
+    }
+    .maincalculator-wrapper{
+        max-width:100%
+    }
+    footer{
+        max-width:100%
     }
 }
 
