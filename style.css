@@ -5,6 +5,9 @@
     padding:0px
 }
 /* header-section-start */
+.fitness-wrapper img{
+  display: none;
+}
 .header{
     max-width: 1440px;
     height: 700px;
@@ -384,7 +387,9 @@ margin-top:10px
 .cards-wrapper{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap:20px
+    gap:20px;
+    max-width: 73.61%;
+    
     
 }
 .food-cards{
@@ -411,7 +416,7 @@ margin-top:10px
     font-family: inter;
     font-size:1rem;
     font-weight: 300;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.5);
     margin-top:10px
 }
 .new-button{
@@ -423,7 +428,7 @@ margin-top:10px
     margin:15px auto
 }
 .BMI-wrapper{
-    max-width: 72%;
+    max-width: 73.61%;
     margin:0px auto;
     
     margin-top:80px;
@@ -432,13 +437,14 @@ margin-top:10px
 .bmi-calculatortxt{
     max-width: 670px;
     height: 120px;
+    text-align: center;
    
     margin:0px auto;
     
     
 }
 .bmi-calculatortxt h2{
-    max-width:353px;
+    
     height:58px ;
     color: rgb(255, 255, 255);
     font-family: Inter;
@@ -446,7 +452,7 @@ margin-top:10px
     font-weight: 900;
 }
 .bmi-calculatortxt p{
-    max-width: 670px;
+    
     height: 48px;
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
@@ -486,7 +492,6 @@ max-width:300px
 .table table{
     width:310px;
     height: 216px;
-    border:1px solid blue;
     border-collapse: collapse;
     margin: 0px auto;
     margin-top:52px
@@ -805,4 +810,188 @@ max-width:300px
 
 
 /* mobile rsesponisives */
+
+@media screen and (max-width:576px) {
+    .fitness-wrapper ul{
+        display: none;
+    }
+    .main{
+        height: 7750px;
+    }
+    .fitness-wrapper img{
+        display: inline;
+        max-width: 50px;
+        height: 50px;
+    }
+    .text1{
+        margin-left:0px
+    }
+    .text-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .header{
+        height: 1180px;
+    }
+    .text1{
+        height: 480px;
+    }
+    .text1 p{
+        max-width:310px;
+        height: 82px;
+    }
+    .habitcard-wrapper{
+        height: 1600px;
+    }
+    .imgcard-wrapper{
+        grid-template-columns: repeat(1,1fr);
+        justify-content:space-around;
+        max-width: 64.74%;
+        
+        margin-left:25%;
+        gap:60px
+    }
+    .runcard-wrapper{
+        height: 800px;
+        grid-template-columns: repeat(1,1fr);
+        gap:30px
+    }
+    .text-part h2{
+        height: 190px;
+    }
+    .img3 img{
+        height: 270px;
+        object-fit:fill;
+        padding:37px;
+        max-width:300px;
+        border-radius: 60px;
+    }
+    .img3{
+        width:380px;
+
+    }
+    .eating-list{
+        max-width: 73.61%;
+        height:230px;
+    }
+    .eating-list h2{
+        height: 100px;
+        font-size: 2rem;
+    }
+    .foods h2{
+        font-size: 2rem;
+    }
+    .cards-wrapper{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px auto;
+        max-width: 59%;
+    }
+    .eatinglist-wrapper{
+        height: 1900px;
+    }
+    .btn{
+        width:39%
+    }
+    .BMI-wrapper{
+        margin:0px
+    }
+    .bmi-calculatortxt h2{
+        font-size: 2rem;
+    }
+    .bmi-calculatortxt p{
+        font-size: 0.75rem;
+    }
+    .bmi-calculatortxt{
+        text-align: left;
+        margin-left:10px
+    }
+    .calculator{
+        grid-template-columns: repeat(1,1fr);
+        height: 755px;
+    }
+    .calculator-wrapper{
+        height: 350px;
+    }
+    
+    
+    .table table{
+        margin:0px;
+        margin-top:10px;
+        margin-left:5px
+    }
+    .table{
+        height: 250px;
+    }
+    .tablechart h3{
+        margin:0px;
+        margin-left:10px;
+
+    }
+    .rightChild .rightChildinfo h1{
+        margin:0px
+    }
+    .rightChild{
+        max-width:350px;
+        overflow: hidden;
+        margin-left:8px
+    }
+    .form .inputfield input{
+        padding:12px 0px 12px 15px
+    }
+    .form{
+        max-width: 350px;
+    }
+    
+    .form .inputfield input{
+        font-size: 0.8rem;
+    }
+    .meetteam-1 h2{
+        font-size: 2rem;
+    }
+    .meetteam-1 p{
+        font-size:0.8rem
+    }
+    .clientgalary{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .meet-team{
+        height: 1960px;
+    }
+    .main-child{
+        margin:0px auto
+    }
+    .clientarea{
+        padding:0px
+    }
+    .footer-main{
+        grid-template-columns: repeat(1,1fr);
+    }
+    footer{
+        height: 1060px;
+    }
+    .footer-main{
+        height:  850px;
+        width:50%;
+        margin:0px;
+        gap:0px
+    }
+    .footer2{
+        padding:0px;
+        margin:0px;
+        text-align: left;
+    }
+    .footer2 p{
+        text-align: left;
+    }
+    .footer-3{
+        padding: 0px;
+    }
+    tbody.tr{
+        width:15px
+    }
+    .table table th{
+        border:2px solid rgba(255, 255, 255, 0.5)
+    }
+        
+}
+
 
