@@ -340,7 +340,7 @@ margin-top:15px
     object-position: 68% 30%;
 }
 .eatinglist-wrapper{
-    max-width:73.61%;
+    max-width:1060px;
     height:730px;
     margin:0px auto;
     margin-top:150px;
@@ -497,7 +497,7 @@ max-width:300px
     margin-top:52px
 }
 .table table td{
-    border:1px solid rgba(255, 255, 255, 0.5);
+    border:2px solid rgba(255, 255, 255, 0.5);
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
@@ -510,7 +510,7 @@ max-width:300px
     font-family: Inter;
     font-size: 0.875rem;
     font-weight: 400;
-    border:1px solid rgba(255, 255, 255, 0.5);
+    border:2px solid rgba(255, 255, 255, 0.5);
 }
 .calculator-wrapper{
     max-width: 610px;
@@ -1057,5 +1057,23 @@ max-width:300px
         height: 7200px;
     }
 }
+/* responsive for large device */
 
+@media screen and (min-width:1441px) {
+    .header{
+        max-width:100%
+    }
+    .body{
+        max-width: 100%;
+    }
+    .text-wrapper{
+        max-width: 100%;
+    }
+    .main{
+        max-width:100%
+    }
+    footer{
+        max-width: 100%;
+    }
+}
 
