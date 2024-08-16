@@ -893,6 +893,7 @@ max-width:300px
     }
     .eatinglist-wrapper{
         height: 1900px;
+        max-width: 52%;
     }
     .btn{
         width:39%
@@ -1056,7 +1057,7 @@ max-width:300px
         
     }
     .cards-wrapper{
-        max-width: 235pxs;
+        max-width: 235px;
     }
     .main-child{
         width:232px;
@@ -1069,9 +1070,9 @@ max-width:300px
         height: 7200px;
     }
 }
-/* responsive for large device */
+/* responsive for large device */ 
 
-@media screen and (min-width:1441px) {
+ @media screen and (min-width:1441px) {
     .header{
         max-width:100%
     }
@@ -1080,6 +1081,9 @@ max-width:300px
     }
     .text-wrapper{
         max-width: 100%;
+    }
+    .text1{
+        margin:0px auto
     }
     .main{
         max-width:100%
@@ -1103,4 +1107,128 @@ max-width:300px
         max-width:100%
     }
 }
+
+/* large devices */
+@media screen and (min-width:900px) and (max-width:1350px) {
+    .text1{
+        margin-left:113px;
+        max-width: 287px;
+    }
+    .text1 h2{
+        font-size: 3rem;
+    }
+    .text1 p{
+            max-width: 229px;
+    height: 100px;
+    margin-top:-26px
+    }
+    .button-2{
+        margin-left: -2px;
+    }
+    .button{
+        padding: 7px 34px 12px 30px;
+    }
+    .clientgalary{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .main{
+        height: 4060px;
+    }
+    .container{
+        
+
+    }.clientgalary{
+        width:680px;
+        margin:0px auto
+    }
+    .eating-list h2{
+        height: 135px;
+        ;
+    }
+    .eating-list{
+        height: 274px;
+        max-width: 73.61%;
+    }
+    .cards-wrapper{
+        max-width: 535px;
+    margin: 0px auto;
+    grid-template-columns: repeat(2,1fr);
+    }
+    .eatinglist-wrapper{
+        height: 1200px;
+    }
+    .button{
+        padding:none
+    }
+    .table table{
+        width:269px
+    }
+    .rightChild{
+        max-width:600px
+    }
+    .calculator-wrapper{
+        max-width: 420px;
+    }
+    .main{
+        height:4880px
+    }
+    .footer1 h2{
+        font-size: 3rem;
+        ;
+    }
+    .footer1 h2{
+        max-width: 200px;
+    }
+    .footer1 p{
+        max-width: 225px;
+        height: 110px;
+    }.footer2 h3{
+        font-size: 1.5rem;
+    }
+    .footer2 p{
+        font-size: 1.12rem;
+    }
+    .footer-3 h3{
+        font-size: 1.5rem;
+    }
+    .footer-3 p{
+        font-size:1.12rem;
+    }
+    .footer-main{
+        width:830px
+    }
+    .imgcard-wrapper{
+        grid-template-columns: repeat(2,1fr);
+        max-width: 70%;
+        margin:50px auto;
+    }
+    .habitcard-wrapper{
+        height: 800px;
+    }
+    .runcard-wrapper{
+        max-width: 80%;
+    }
+    .text-part h2{
+        font-size: 2rem;
+        height: 92px;
+    }
+    .text-part p{
+        height: 100px;
+    }
+    .runcard-wrapper{
+        height: 467px;
+    }
+    .img3 img{
+        max-width: 280px;
+        height: 265px;
+    }
+}
+
+
+
+
+
+    
+
 
