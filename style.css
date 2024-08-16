@@ -388,7 +388,7 @@ margin-top:10px
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap:20px;
-    max-width: 73.61%;
+    
     
     
 }
@@ -877,10 +877,10 @@ max-width:300px
     }
     .eating-list{
         max-width: 73.61%;
-        height:230px;
+        height:390px;
     }
     .eating-list h2{
-        height: 100px;
+        height: 131px;
         font-size: 2rem;
     }
     .foods h2{
@@ -892,8 +892,8 @@ max-width:300px
         max-width: 227px;
     }
     .eatinglist-wrapper{
-        height: 1900px;
-        max-width: 52%;
+        height: 2071px;
+        max-width: 55%;
     }
     .btn{
         width:39%
@@ -1042,9 +1042,12 @@ max-width:300px
         margin:0px auto;
         height: 145px;
     }
+    .fistblur-object{
+        margin-left:-35px
+    }
     .button{
         padding: 8px 23px 10px 20px;
-        margin-left:18px
+        
     }
     .img3{
         width:270px
@@ -1067,7 +1070,7 @@ max-width:300px
         height: 1448px;
     }
     .main{
-        height: 7200px;
+        height: 7480px;
     }
 }
 /* responsive for large device */ 
@@ -1106,6 +1109,7 @@ max-width:300px
     footer{
         max-width:100%
     }
+
 }
 
 /* large devices */
@@ -1200,7 +1204,7 @@ max-width:300px
     }
     .imgcard-wrapper{
         grid-template-columns: repeat(2,1fr);
-        max-width: 70%;
+        max-width: 422px;
         margin:50px auto;
     }
     .habitcard-wrapper{
@@ -1223,6 +1227,7 @@ max-width:300px
         max-width: 280px;
         height: 265px;
     }
+   
 }
 
 
